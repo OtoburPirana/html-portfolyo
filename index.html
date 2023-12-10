@@ -1,215 +1,181 @@
 <!DOCTYPE html>
-<html lang="tr" data-bs-theme="light">
-
+<html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emre Candemir Test Sayfası</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emre Candemir</title>
 
-    .feature-icon {
-      width: 4rem;
-      height: 4rem;
-      border-radius: .75rem;
-  }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  
-  .carousel {
-  display: flex;
-   justify-content: center;
-   width: 70%;
-   margin-bottom: 10vh;
-  }
-
-  </style>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./assets/images/truck.svg" height="35" alt="move it marka ikonu"> Move It</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Hakkında</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Açılır Menü
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Aksiyon</a></li>
-              
-              <li><a class="dropdown-item" href="#">Başka Bir Aksiyon</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Veya Çok Farklı Bir Şey</a></li>
-            </ul>
-          </li>
-          
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Posta Kodu" aria-label="Search">
-          <button class="btn btn-outline-success" style="width: 170px;" type="submit" >Adres Ara</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+    
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+        
+        <div id="start" class="d-flex flex-column justify-content-center align-items-center gradient-background">
+           
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold text-body-emphasis">Taşımak Bizim İşimiz</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facere esse doloribus dolores voluptate? Ipsa temporibus similique quos numquam sit, voluptatum veniam ab optio, enim et ullam, perspiciatis vitae provident?</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">İletişim</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Referanslar</button>
-      </div>
-    </div>
+         <div id="profile-image"> <img src="./images/profil.jpg" style="border-radius: 50%;" alt="emre candemir profil" width="220"></div>
 
-
-    <div class="overflow-hidden" style="max-height: 30vh, margin-bottom=200px;">
-      <div class="container px-5">
-        <img  src="./assets/images/moving-van.jpg" class="img-fluid border rounded-3 shadow-lg mb-5" alt="Example image" width="700" height="500" loading="lazy">
-      </div>
-    </div>
-
-  </div>
-
-  <div class="container px-4 py-5" id="featured-3">
-    <h2 class="pb-2 border-bottom">Columns with icons</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-          <img width="30" src="./assets/images/bus-front.svg" alt="">
+         <div id="name"><h1 class="fw-light text-white m-3" style="font-family: 'Rethink Sans', sans-serif;">Emre Candemir</h1></div>
+         <div><p style="font-family: 'Rethink Sans', sans-serif;" class="fw-light text-white">Teknoloji meraklısı</p></div>
+            
+         <div id="tech"> 
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#DEE2E6" class="bi bi-phone" viewBox="0 0 16 16">
+                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+              </svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#DEE2E6" class="bi bi-pc-display" viewBox="0 0 16 16">
+                <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"/>
+              </svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#DEE2E6" class="bi bi-smartwatch" viewBox="0 0 16 16">
+                <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5z"/>
+                <path d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667M4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3"/>
+              </svg></div>
         </div>
-        <h3 class="fs-2 text-body-emphasis">Toplu taşıma yok</h3>
-        <p>Taşınacak eşyaları taşıma esnasında zarar görmeyecek şekilde paketleyip kendi kamyonumuz ile taşırız, otobüs ile buzdolabı taşımaya son.</p>
-        <a href="#" class="icon-link">
-          Randevu almak için tıklayınız
-          <img src="./assets/images/chevron-right.svg" alt="">
-        </a>
-      </div>
-      <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-          <img width="30" src="./assets/images/briefcase.svg" alt="">
         </div>
-        <h3 class="fs-2 text-body-emphasis">Profesyonel kadro</h3>
-        <p>Mobilyacılar çarşısının en seçkin mobilya ve beyaz eşya ustaları ile çalışırız eşyalarınızın demontaj ve montajı emin ellerde.</p>
-        <a href="#" class="icon-link">
-          Ödeme sayfası için tıklayınız
-          <img src="./assets/images/chevron-right.svg" alt="">
-        </a>
-      </div>
-      <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-          <img width="30" src="./assets/images/chat-square-heart.svg" alt="">
-        </div>
-        <h3 class="fs-2 text-body-emphasis">Kolay iletişim</h3>
-        <p>Whatsapp müşteri hizmetleri hattımız 7/24 hizmetinizde. Akıl sağlığınız için isterseniz telefon ile aramayınız, önermeyiz.</p>
-        <a href="#" class="icon-link">
-          Whatsapp hattı için tıklayınız
-          <img src="./assets/images/chevron-right.svg" alt="">
-        </a>
-      </div>
     </div>
-  </div>
-  
-  <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button class="active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div data-bs-interval="2500" class="carousel-item active">
-        <img src="./assets/images/family.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div  data-bs-interval="2500" class="carousel-item">
-        <img src="./assets/images/dog.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div data-bs-interval="2500" class="carousel-item">
-        <img src="./assets/images/couple.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    
+    <hr class="mt-0">
 
+    <!-- Features -->
+    <section class="mb-0">
 
-  <div class="container">
-    <footer class="py-5">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+        <div class="container px-4 pt-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">Kim bu Emre?</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="background-color: white;" width="30" height="30" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+                      </svg>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Tahsil</h3>
+                  <p>Mevcut kariyeri ile alakalı herhangi bir adakdemik bağlantısı olmayan, fakat öğrenmek istediğinde aradığı kaynağı bulabilen birisidir.</p>
+                  
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="background-color: white;" width="30" height="30" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5"/>
+                      </svg>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Geçmiş</h3>
+                  <p>Uzunca bir süre bilişim teknolojilerini hobi olarak gördükten sonra karşıma çıkan fırsatları değerlerdirip artık sevdiğim işi yapmak istiyorum.</p>
+                  
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="background-color: white"  width="30" height="30" fill="currentColor" class="bi bi-suitcase-lg-fill" viewBox="0 0 16 16">
+                        <path d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2zM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zM3 13V3h1v10zm9 0V3h1v10z"/>
+                      </svg>
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Kariyer</h3>
+                  <p>BT kariyerime AIO bilgisayar toplayan bir firmada teknisyen olarak başladım. Ardından ise farklı bir firmada bilgi teknolojileri sorumlusu oldum. Şimdi ise programcı olma yolunda ilerliyorum</p>
+                  
+                  
+                  
+                </div>
+              </div>
             </div>
-          </form>
-        </div>
-      </div>
-  
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2023 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-        </ul>
-      </div>
-    </footer>
-  </div>
+          </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <div class="container mt-0 pt-0"><h2 class="pb-2 border-bottom"></h2></div>
+    </section>
+
+    <!--Skills-->
+    <section class="container">
+
+        <div class="row align-items-center g-5 py-5 container" id="skills">
+           <div><h2 class="display-6 fw-bold text-body-emphasis">Yetenekler </h2>
+            <div class="container mt-0 pt-0"><h2 class="pb-2 border-bottom"></h2></div>
+           </div>
+            <div class="col-lg-6 col-sm-12">
+              <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3">Güç seninle olsun</h3>
+              <p class="lead">Bir Star Wars hayranının yetenekleri her zaman gelişir. Durmadan yeni şeyler öğrenir. Kısacası şu an bir konuyu bilmiyor olmam sorun değil, kaynak oldukça öğrenmeye devam.</p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img style="border-radius: 50%;" src="./images/star-love.jpg" width="400px" alt="star love">
+            </div>
+          </div>
+
+          <div class="row align-items-center g-5 py-5 container skills">
+            
+             <div class="col-lg-6 col-sm-12">
+               <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3">Biri oyun mu dedi?</h3>
+               <p class="lead">Bilgisyar oyunlarını severim. Özellikle uzay teması olanları daha çok. Favorilerim şunlar;
+                <ul>
+                    <li>Elite Dangerous</li>
+                    <li>Borderlands Serisi</li>
+                    <li>Satisfactory</li>
+                </ul>
+               </p>
+             </div>
+             <div class="col-lg-6 col-sm-12">
+                 <img style="border-radius: 50%;" src="./images/borderlands.jfif" width="400px" alt="star love">
+             </div>
+           </div>
+        </div>
+
+    </section>
+
+    <!--contact-->
+    <section>
+
+        <div class="px-4 py-5 my-5 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="mb-2 bi bi-messenger" viewBox="0 0 16 16">
+                <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+              </svg>
+            <h4 class="display-6 fw-bold text-body-emphasis">İletişim</h4>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Eğer benimle iletişime geçmek istersen aşağıdaki butonlar yardımı ile tercih ettiğin iletişim yönetimini seçerek devam edebilirsin.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Telefon yolu ile</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Mail yolu ile</button>
+              </div>
+            </div>
+          </div>
+
+    </section>
+   
+    <!--footer-->
+    <section>
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 OtoburPirana - Emre Candemir</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                  </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                  </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></a></li>
+              </ul>
+            </footer>
+          </div>
+
+    </section>  
+
 </body>
 
 </html>
