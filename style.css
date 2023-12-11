@@ -45,11 +45,12 @@
         
     }
 
-    .skills{
+    .skills  {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        flex:1;
+        margin: 0;
     }
 
     #header{
@@ -69,3 +70,10 @@
       margin-right: auto;
       margin-left: auto;
     }
+
+    #butonlar  *{
+      width: 180px;
+
+    }
+
+    
