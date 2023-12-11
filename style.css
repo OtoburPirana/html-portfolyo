@@ -42,5 +42,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+    }
+
+    .skills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+    }
+
+    #header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+
+    #header > * {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #header-top{
+      margin-right: auto;
+      margin-left: auto;
     }
