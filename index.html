@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emre Candemir</title>
+    <meta name="decription" content="Emre Candemir Capstone projesi için kişisel sayfa">
+    <meta name="author" content="Emre Candemir">
+    <meta name="title" content="Emre Candemir">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -138,7 +141,7 @@
 
     <!--contact-->
     <section>
-<div class="container">
+      <div class="container">
         <div class="px-4 py-5 my-5 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="mb-2 bi bi-messenger" viewBox="0 0 16 16">
                 <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
@@ -147,8 +150,11 @@
             <div class="col-lg-6 mx-auto">
               <p class="lead mb-4">Eğer benimle iletişime geçmek istersen aşağıdaki butonlar yardımı ile tercih ettiğin iletişim yönetimini seçerek devam edebilirsin.</p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="https://www.google.com" target="_blank" class="text-body-secondary">Zor yöntem</a></button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Kolay yöntem</button>
+                <a href="https://www.google.com" style="text-decoration: none;" target="_blank" class="text-body-secondary text-white" >
+                  <button type="button" class="btn btn-primary btn-lg px-4">Zor yöntem</button>
+                </a>
+                
+                <button type="button"  onclick="mailSoyle()" class="btn btn-outline-secondary btn-lg px-4">Kolay yöntem</button>
               </div>
             </div>
           </div>
@@ -182,6 +188,16 @@
           </div>
 
     </section>  
+
+<script>
+  function mailSoyle(){
+    alert("emre.candemir@hotmail.com adresine mail atabilirsiniz");
+  }
+
+  function adreseGit(){
+
+  }
+</script>
 
 </body>
 
